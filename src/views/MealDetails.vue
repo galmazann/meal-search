@@ -26,7 +26,7 @@ onMounted(() => {
     <div class="m-10">
         <!-- {{ meal }} -->
         <h1 class="text-5x1 font-bold mb-10"> {{ meal.strMeal }}</h1> 
-        <img src="meal.strMealThumb" class="max-w-[25%] mb-10"/>
+        <img :src="meal.strMealThumb" class="max-w-[25%] mb-10"/>
         <p class="mb-10"> {{ meal.strInstructions }}</p>
 
         <ul>
